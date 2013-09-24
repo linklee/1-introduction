@@ -1,0 +1,488 @@
+/* ../../vendors/lego/blocks-desktop/i-global/_type/i-global_type_simple.css: begin */ /**/
+    /* ../body/i-global__body.css: begin */ /**/
+        /* Global definitions (begin) */ /**/
+            body
+            {
+                font: 0.8em Arial, Helvetica, sans-serif;
+        
+                /* Чтобы в FF2- заработал z-index: -1 */ /**/
+                position: relative;
+                z-index: 0;
+        
+                margin: 0;
+                padding: 0 0 1em 0;
+        
+                color: #000;
+                background: #fff;
+            }
+        /* Global definitions (end) */ /**/
+    /* ../body/i-global__body.css: end */ /**/
+    
+    /* ../wbr/i-global__wbr.css: begin */ /**/
+        /* Поддержка wbr в Opera и Safari 2/3 (begin) */ /**/
+            /* См. http://harisov.livejournal.com/97666.html */ /**/
+            wbr
+            {
+                display: inline-block;
+            }
+        /* Поддержка wbr в Opera и Safari 2/3 (end) */ /**/
+        
+    /* ../wbr/i-global__wbr.css: end */ /**/
+    
+    /* ../hover/i-global__hover.css: begin */ /**/
+        /* Global definitions: Links hover (begin) */ /**/
+            :link:hover,
+            :visited:hover
+            {
+                color: #f00 !important/*!head*/;
+            }
+        /* Global definitions: Links hover (end) */ /**/
+        
+    /* ../hover/i-global__hover.css: end */ /**/
+    
+    
+/* ../../vendors/lego/blocks-desktop/i-global/_type/i-global_type_simple.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-foot/b-foot.css: begin */ /**/
+    .b-foot
+    {
+        font-size: 85%;
+    
+        clear: both;
+    
+        margin-top: 3em;
+    
+        color: #333;
+        border-top: 1px solid #eaeaea;
+    }
+    
+    .b-foot .b-menu_layout_horiz-simple
+    {
+        margin-bottom: 0.6em;
+    }
+    
+    .b-foot__link:link,
+    .b-foot__link:visited,
+    .b-foot .b-copyright__link:link,
+    .b-foot .b-copyright__link:visited,
+    .i-ua_js_yes .b-foot .b-link_pseudo_yes
+    {
+        white-space: nowrap;
+    
+        color: #8792a8;
+    }
+    
+    .b-foot .b-menu_layout_horiz-simple .b-foot__link
+    {
+        margin-right: 18px;
+    }
+    
+    .b-foot__layout-column_type_right .b-menu_layout_horiz-simple .b-foot__link
+    {
+        margin: 0 0 0 18px;
+    }
+    
+    .b-foot .b-keyboard-loader
+    {
+        margin: 0 20px 0.6em 0;
+    }
+    
+    .b-foot .b-copyright
+    {
+        margin-bottom: 0.6em;
+    }
+/* ../../vendors/lego/blocks-desktop/b-foot/b-foot.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-foot/layout/b-foot__layout.css: begin */ /**/
+    /* Подвал: раскладка (begin) */ /**/
+        .b-foot__layout
+        {
+            font-size: 100%; /* for.i-ua_css.i-ua_css_quirks */ /**/
+    
+            width: 100%;
+    
+            border-collapse: collapse;
+        }
+    
+        .b-foot__layout-column
+        {
+            padding: 10px 10px 7px 0;
+    
+            vertical-align: top;
+        }
+    
+        .b-foot__layout-column_type_left
+        {
+            width: 16%;
+        }
+    
+        .b-foot__layout-column_type_center
+        {
+            width: 16%;
+        }
+    
+        .b-foot__layout-column_type_right
+        {
+            width: 8%;
+            padding: 10px 0 7px 10px;
+        }
+    
+        /*.b-foot__layout__column_penultima, *//* предпоследняя ячейка *//**//**/
+        .b-foot__layout-column_type_right
+        {
+            text-align: right;
+        }
+    
+        .b-foot__layout-gap,
+        .b-foot__layout-bottom
+        {
+            padding: 0;
+        }
+    
+        /* Gap (begin) */ /**/
+            .b-foot__layout-gap
+            {
+                width: 2%;
+            }
+    
+            .b-foot__layout-gap-i
+            {
+                display: block;
+                visibility: hidden;
+    
+                width: 20px;
+            }
+        /* Gap (end) */ /**/
+    /* Подвал: раскладка (end) */ /**/
+/* ../../vendors/lego/blocks-desktop/b-foot/layout/b-foot__layout.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-menu/b-menu.css: begin */ /**/
+    .b-menu
+    {
+    }
+    
+    .b-menu__item-content
+    {
+        display: none;
+    }
+    
+    .b-menu__item-content_visibility_visible
+    {
+        display: block;
+    }
+    
+/* ../../vendors/lego/blocks-desktop/b-menu/b-menu.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-menu/title/b-menu__title.css: begin */ /**/
+    .b-menu__title
+    {
+        font-size: 100%;
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+/* ../../vendors/lego/blocks-desktop/b-menu/title/b-menu__title.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-menu/item/b-menu__item.css: begin */ /**/
+    .b-menu__item
+    {
+    }
+    
+/* ../../vendors/lego/blocks-desktop/b-menu/item/b-menu__item.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-menu/_layout/b-menu_layout_horiz-simple.css: begin */ /**/
+    .b-menu_layout_horiz-simple .b-menu__title
+    {
+        display: -moz-inline-box;
+        display: inline-block;
+    }
+    
+/* ../../vendors/lego/blocks-desktop/b-menu/_layout/b-menu_layout_horiz-simple.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-link/_type/b-link_type_global.css: begin */ /**/
+    :link
+    {
+        color: #1a3dc1;
+    }
+    
+    :link:hover,
+    :visited:hover
+    {
+        color: #f00 !important;
+    }
+    
+/* ../../vendors/lego/blocks-desktop/b-link/_type/b-link_type_global.css: end */ /**/
+
+/* ../../vendors/lego/blocks-desktop/b-link/b-link.css: begin */ /**/
+    
+/* ../../vendors/lego/blocks-desktop/b-link/b-link.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: begin */ /**/
+    .promo-button
+    {
+        font-family: 'Arial', sans-serif;
+    
+        position: relative;
+    
+        display: inline-block;
+    
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none !important;
+    
+        border: none;
+        outline: 0;
+        background-color: #f9c400;
+        background: -webkit-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background: -moz-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background: -o-linear-gradient(top, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        background: linear-gradient(to bottom, #ffe025 0%, #f9c400 92%, #be8c05 100%);
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.36);
+    
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    .promo-button::-moz-focus-inner
+    {
+        padding: 0;
+    
+        border: 0;
+    }
+    
+    @media all and (min-width: 0)
+    {
+        .promo-button:before
+        {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            bottom: 1px;
+            left: 1px;
+    
+            content: '';
+    
+            background: -moz-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background: -webkit-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background: -o-linear-gradient(top, #ffe34a 0%, #ffdb03 100%);
+            background: linear-gradient(to bottom, #ffe34a 0%, #ffdb03 100%);
+            -webkit-box-shadow: inset 0 -0.085em 0 0 rgba(102, 52, 0, 0.20), inset 0 0 3px 0 rgba(254, 255, 187, 0.5);
+            box-shadow: inset 0 -0.085em 0 0 rgba(102, 52, 0, 0.20), inset 0 0 3px 0 rgba(254, 255, 187, 0.5);
+        }
+    
+        .promo-button_hovered_yes:before
+        {
+            background: -moz-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background: -webkit-linear-gradient(top, #ffe86a 0%, #ffe130 100%);
+            background: -o-linear-gradient(top, #ffe86a 0%, #ffdb03 100%);
+            background: linear-gradient(to bottom, #ffe86a 0%, #ffe130 100%);
+        }
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/promo-button.css: end */ /**/
+
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: begin */ /**/
+    .promo-button__text
+    {
+        position: relative;
+    }
+/* ../../vendors/islands-promo/common.blocks/promo-button/__text/promo-button__text.css: end */ /**/
+
+/* ../../desktop.blocks/chat/__board/chat__board.css: begin */ /**/
+    .chat__board
+    {
+        padding: 10px;
+        font-size: 12px;
+        color: gray;
+        width: 200px;
+    }
+/* ../../desktop.blocks/chat/__board/chat__board.css: end */ /**/
+
+/* ../../desktop.blocks/chat/__textbox/chat__textbox.css: begin */ /**/
+    .chat__textbox
+    {
+        padding: 3px;
+        letter-spacing: 3px;
+        width: 200px;
+    }
+/* ../../desktop.blocks/chat/__textbox/chat__textbox.css: end */ /**/
+
+/* ../../desktop.blocks/text/text.css: begin */ /**/
+    .text
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #484848;
+    }
+    
+/* ../../desktop.blocks/text/text.css: end */ /**/
+
+/* ../../desktop.blocks/text/code/text__code.css: begin */ /**/
+    .text__code
+    {
+        color: orange;
+        display: inline;
+    }
+    
+/* ../../desktop.blocks/text/code/text__code.css: end */ /**/
+
+/* ../../desktop.blocks/text/jsComment/text__jsComment.css: begin */ /**/
+    .text__jsComment
+    {
+    
+        /*font-size: 15px;*/
+         color: grey;
+        display: inline;
+    
+    }
+    
+/* ../../desktop.blocks/text/jsComment/text__jsComment.css: end */ /**/
+
+/* ../../desktop.blocks/text/__p/text__p.css: begin */ /**/
+    .text__p
+    {
+    
+        font-size: 1.2em
+    
+    
+    }
+    
+/* ../../desktop.blocks/text/__p/text__p.css: end */ /**/
+
+/* ../../desktop.blocks/text/__p/_code/text__p_code_yes.css: begin */ /**/
+    .text__p_code_yes
+    {
+        color: green;
+    }
+    
+/* ../../desktop.blocks/text/__p/_code/text__p_code_yes.css: end */ /**/
+
+/* ../../desktop.blocks/text/__p/_code/text__p_code_comment.css: begin */ /**/
+    .text__p_code_comment
+    {
+        color: grey;
+    }
+    
+/* ../../desktop.blocks/text/__p/_code/text__p_code_comment.css: end */ /**/
+
+/* ../../desktop.blocks/text/__p/_code/text__p_code_inline.css: begin */ /**/
+    .text__p_code_inline
+    {
+        display: inline;
+    }
+    
+/* ../../desktop.blocks/text/__p/_code/text__p_code_inline.css: end */ /**/
+
+/* ../../desktop.blocks/text/__p/_code/text__p_code_red.css: begin */ /**/
+    .text__p_code_red
+    {
+        color: orange;
+        display: inline;
+    }
+    
+/* ../../desktop.blocks/text/__p/_code/text__p_code_red.css: end */ /**/
+
+/* ../../desktop.blocks/text/__p/_display/text__p_display_inline.css: begin */ /**/
+    .text__p_display_inline
+    {
+        display: inline;
+    }
+    
+/* ../../desktop.blocks/text/__p/_display/text__p_display_inline.css: end */ /**/
+
+/* ../../desktop.blocks/text/__p/_display/text__p_display_bottom.css: begin */ /**/
+    .text__p_display_bottom
+    {
+        margin-top: 200px;
+        text-align: center;
+    
+    }
+    
+/* ../../desktop.blocks/text/__p/_display/text__p_display_bottom.css: end */ /**/
+
+/* ../../desktop.blocks/text/__jsCode/text__jsCode.css: begin */ /**/
+    .text__jsCode
+    {
+    
+        /*font-size: 15px;*/
+         color: orange;
+    
+    }
+    
+/* ../../desktop.blocks/text/__jsCode/text__jsCode.css: end */ /**/
+
+/* ../../desktop.blocks/text/__inline/text__inline.css: begin */ /**/
+    .text__inline
+    {
+        display:inline;
+    }
+    
+/* ../../desktop.blocks/text/__inline/text__inline.css: end */ /**/
+
+/* ../../desktop.blocks/text/h1/text__h1.css: begin */ /**/
+    h1
+    {
+        text-align: right;
+        padding-right: 0;
+        margin-bottom: 0px;
+        color: #484848;
+    }
+    
+/* ../../desktop.blocks/text/h1/text__h1.css: end */ /**/
+
+/* ../../desktop.blocks/text/h2/text__h2.css: begin */ /**/
+    h2
+    {
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+    
+/* ../../desktop.blocks/text/h2/text__h2.css: end */ /**/
+
+/* ../../desktop.blocks/text/__hr/text__hr.css: begin */ /**/
+    .text__hr{
+        height: 3px;
+        color: rgb(224, 223, 223);
+        background-color: rgb(224, 223, 223);
+        border: rgb(224, 223, 223);
+        margin-bottom: 70px;
+    
+    }
+    
+/* ../../desktop.blocks/text/__hr/text__hr.css: end */ /**/
+
+/* ../../desktop.blocks/text/__hr/_bold/text__hr_bold_no.css: begin */ /**/
+    .text__hr_bold_no
+    {
+        height: 2px;
+        margin-bottom: 30px;
+    
+    }
+    
+/* ../../desktop.blocks/text/__hr/_bold/text__hr_bold_no.css: end */ /**/
+
+/* ../../desktop.blocks/text/__hr/_bold/text__hr_bold_huge.css: begin */ /**/
+    .text__hr_bold_huge
+    {
+        height: 25px;
+    
+    }
+    
+/* ../../desktop.blocks/text/__hr/_bold/text__hr_bold_huge.css: end */ /**/
+
+/* ../../desktop.blocks/text/__hr/_color/text__hr_color_orange.css: begin */ /**/
+    .text__hr_color_orange
+    {
+        margin-bottom: 30px;
+        background: rgb(241, 198, 159);
+        background: -moz-linear-gradient(top,rgb(247, 235, 189) 0%,rgb(240, 211, 168)  36%, rgb(247, 201, 19) 100%);
+        background: -webkit-linear-gradient(top,rgb(247, 235, 189) 0%,rgb(240, 211, 168)  36%, rgb(247, 201, 19) 100%);
+        background: -o-linear-gradient(top,rgb(247, 235, 189) 0%,rgb(240, 211, 168)  36%, rgb(247, 201, 19) 100%);
+        background: -ms-linear-gradient(top,rgb(247, 235, 189) 0%,rgb(240, 211, 168)  36%, rgb(247, 201, 19) 100%);
+        background: linear-gradient(top,rgb(247, 235, 189) 0%,rgb(240, 211, 168)  36%, rgb(247, 201, 19) 100%);
+    
+    }
+    
+/* ../../desktop.blocks/text/__hr/_color/text__hr_color_orange.css: end */ /**/
