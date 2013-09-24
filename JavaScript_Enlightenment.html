@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://project1.linklee.nodejs.dev.spec.yandex.ru/ -->
+<html class="i-ua_js_yes i-ua_css_standard i-ua_svg_yes i-ua_inlinesvg_yes">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=edge">
+    <title>1 task</title>
+
+    <!--[if gt IE 9]><!-->
+    <link rel="stylesheet"
+          href="http://st.project1.linklee.nodejs.dev.spec.yandex.net/desktop.bundles/index/_index.css">
+    <!--<![endif]--><!--[if IE 6]>
+    <link rel="stylesheet"
+          href="//st.project1.linklee.nodejs.dev.spec.yandex.net/desktop.bundles/index/_index.ie6.css"/><![endif]-->
+    <!--[if IE 7]>
+    <link rel="stylesheet"
+          href="//st.project1.linklee.nodejs.dev.spec.yandex.net/desktop.bundles/index/_index.ie7.css"/><![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet"
+          href="//st.project1.linklee.nodejs.dev.spec.yandex.net/desktop.bundles/index/_index.ie8.css"/><![endif]-->
+    <!--[if IE 9]>
+    <link rel="stylesheet"
+          href="//st.project1.linklee.nodejs.dev.spec.yandex.net/desktop.bundles/index/_index.ie9.css"/><![endif]-->
+    <script src="./JavaScript_Enlightenment_files/jquery.min.js"></script>
+    <style></style>
+
+</head>
+<body >
+<div class="text"><h1 class="text__h1">Preface</h1>
+    <hr class="text__hr">
+    <p class="text__p">Before you begin, it is important to understand various styles employed in this book. Please do
+        not skip this section, because it contains important information that will aid you as you read the book.</p>
+
+    <h2 class="text__h2">More code, less words</h2>
+    <hr class="text__hr text__hr_bold_no">
+    <p class="text__p">Please examine the code examples in detail. The text should be viewed as secondary to the code
+        itself. It is my opinion that a code example is worth a thousand words. Do not worry if youʼre initially
+        confused by explanations. Examine the code. Tinker with it. Reread the code comments. Repeat this process until
+        the concept being explained becomes clear. I hope you achieve a level of expertise such that well- documented
+        code is all you need to grok a programming concept.</p>
+
+    <h2 class="text__h2">Exhaustive code and repetition</h2>
+    <hr class="text__hr text__hr_bold_no">
+    <p class="text__p">You will probably curse me for repeating myself and for being so comprehensive with my code
+        examples. And while I might deserve it, I prefer to err on the side of being exact, verbose, and repetitive,
+        rather than make false assumptions authors often make about their reader. Yes, both can be annoying, depending
+        upon what knowledge you bring to the subject, but they can also serve a useful purpose for those who want to
+        learn a subject in detail.</p>
+
+    <h2 class="text__h2">Color-coding Conventions</h2>
+    <hr class="text__hr text__hr_bold_no">
+    <p class="text__p">In the JavaScript code examples (example shown below), orange is used to highlight code directly
+        relevant to the concept being discussed. Any additional code used to support the orange colored code will be
+        green. The color gray in the code examples is reserved for JavaScript comments (example shown below).</p>
+    <hr class="text__hr text__hr_bold_huge text__hr_color_orange">
+    <p class="text__p text__p_code_yes">&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;body&gt;&lt;script&gt;</p>
+
+    <p class="text__p text__p_code_comment">// this is a comment about a specific part of the code</p>
+
+    <p class="text__p text__p_code_inline">var foo = </p>
+
+    <p class="text__p text__p_code_red">'calling out this part of the code';</p>
+
+    <p class="text__p text__p_code_yes">&lt;script/&gt;&lt;script&gt;</p>
+    <hr class="text__hr text__hr_color_orange">
+    <p class="text__p">In addition to code examples being color-coded, the text in this book is colored so as to denote
+        JavaScript words/keywords v.s. JavaScript code v.s. regular text. Below, I take an excerpt from the book to
+        demonstrate this coloring semantic."Consider that the <span class="text__jsComment">cody</span>object created
+        from the <span class="text__jsCode">Object() </span>constructor function (i.e <span class="text__jsCode">var cody = new Object() </span>is
+        not really different from a string object created via the <span class="text__jsCode">String() </span>constructor
+        function. To drive this fact home, examine the code below:"</p>
+
+    <p class="text__p">Notice the use of gray italic text for code references, orange text for JavaScript
+        words/keywords, and regular black text for everything in-between.</p>
+
+    <h2 class="text__h2">jsFiddle, JS Bin, and Firebug lite-dev</h2>
+    <hr class="text__hr">
+    <p class="text__p">The majority of code examples in this book are linked to a corresponding <a class="b-link"
+                                                                                                   href="http://ya.ru/">jsFiddle</a>
+        page, where the code can be tweaked and executed online. The jsFiddle examples have been configured to use the<a
+                class="b-link" href="http://ya.ru/"> Firebug lite-dev</a> plugin so that the log function (i.e. <span
+                class="text__jsCode">console.log</span>) will work in most any modern browser regardless of if the
+        browser has its own console. Before reading this book make sure you are comfortable with the <a class="b-link"
+                                                                                                        href="http://ya.ru/">usage
+            and purpose </a> of <span class="text__jsCode">console.log</span>.</p>
+
+    <p class="text__p">In situations where jsFiddle &amp; Firebug lite-dev caused complications with the JavaScript code
+        <a class="b-link" href="http://ya.ru/">JS Bin</a> &amp; Firebug Lite-dev will be used. I've tried to avoid a
+        dependency on a browser console by using Firebug lite-dev but with certain code examples the solution itself
+        gets in the way of code execution. In these situations the console built into your web browser will have to be
+        leveraged to output logs. If you are not using a browser with a built in JavaScript console I would suggest <a
+                class="b-link" href="http://ya.ru/">upgrading or switching browsers</a>.</p>
+
+    <p class="text__p">When JS Bin is used, keep in mind that the code has to be executed manually (clicking 'Render')
+        which differs from the page load execution done by jsFiddle.</p>
+
+    <p class="text__p text__p_display_bottom">14</p></div>
+
+</body>
+</html>
